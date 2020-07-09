@@ -1,0 +1,449 @@
+<!DICTYPE html>
+<html>
+<head>
+<style>
+<!--CSS CODE FOR SEARCH BOX SEARCHING-->
+.dropbtn
+{
+padding:16px;
+font-size:16px;
+border:none;
+cursor:pointer;
+}
+
+#myInput
+{
+box-sizing:border-box;
+background-position:14px 12px;
+background-repeat:no-repeat;
+font-size:16px;
+padding:14px 20px 12px 45px;
+border:none;
+border:5px solid #ddd;
+}
+
+
+#myInput:focus
+{
+outline:3px solid #ddd;
+}
+.dropdown
+{
+position:relative;
+ display:inline-block;
+}
+.dropdown-content
+{
+display:none;
+position:absolute;
+background-color:f6f6f6;
+min-width:230px;
+overflow:auto;
+border:1px solid #ddd;
+z-index:1;
+}
+.dropdown-content a
+{
+color:black;
+padding:12px 16px;
+text-decoration:none;
+display:block;
+}
+
+.dropdown a:hover
+{
+background-color:blue;
+}
+
+.show
+{
+display: block;
+}
+<!--END OF CSS CODE FOR SEARCH BOX SEARCHING-->
+.dropdown
+{
+position: relative;
+display: inline block;
+}
+.dropdown-content
+{
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px opx rgba(0,0,0,0.2);
+padding:12px 16px;
+color:blue;
+}
+
+.dropdown:hover .dropdown-content
+{
+display: block;
+}
+
+
+
+</style>
+<title>DREAM STORE</title>
+</head>
+<body bg color="blue">
+</body>
+<table border="0" width="100%" bgcolor="skyblue" >
+<tr height="50%">
+<td align="left" ><img src="logo2.png"></td>
+<th class="dropdown"><input type="text" placeholder="search for products,brands and more" style="width:550px;height:35px;" 
+onclick="myfunction()" class="dropbtn" id="myInput" onkeyup="filterfunction()" >
+<div id="myDropdown" class="dropdown-content">
+
+<a href="mobile.html">Mobile</a>
+<a href="laptop.html">Laptop</a>
+<a href="tv.html">Telivision</a>
+<a href="chocolate.html">Chocolate</a>
+<a href="gown.html">Gown</a>
+<a href="saree.html">Saree</a>
+<a href="blazer.html">Blazer</a>
+<a href="gasstove.html">Gasstove</a>
+<a href="lakme.html">Lakme</a>
+<a href="perfume.html">Perfume</a>
+</div>
+<input type="botton" value="search" style="width:55px;height:35px;"></th>
+<th align="left"><font color="red"><a href="login.html">Login & signup</a></font></th>
+<th align="left" >
+<div class="dropdown">
+<span><font color="navy">More</font></span>
+<div class="dropdown-content">
+<p>Notification Preference</p>
+<p>Sell on Dream store</p>
+<p>24*7 Customer Care</p>
+<p>Advertise</p>
+<p>Download App</p>
+</div>
+</div>
+</th>
+<th><img src="cart1.jpg"></th>
+</tr>
+</table>
+<table border="0" width="100%" bgcolor="skyblue">
+<tr>
+<th width="16.6%"><font color="blue""><a href="DREAM STORE.html">HOME</a></font></th>
+<th width="16.6%"><font color="blue""><a href="category.html">CATEGORY</a></font></th>
+<th width="16.6%"><font color="blue"><a href="offers.html">OFFERS</a></font></th>
+<th width="16.6%"><font color="blue"><a href="customer service.html">CUSTOMER SERVICE</a></font></th>
+<th width="16.6%"><font color="blue"><a href="#">ACCOUNT</a></font></th>
+<th width="16.6%"><font color="blue"><a href="#">CART</a></font></th>
+</tr>
+</table>
+<table border="0" width="100%" bgcolor="white">
+<tr>
+<th width="16.6%">
+<div class="dropdown">
+<span>Electronics</span>
+<div class="dropdown-content">
+<p>MOBILE</P>
+<P>TELIVISION</P>
+<P>LAPTOP</P>
+<P>COMPUTER</P>
+<P>FAN</P>
+</div>
+</div>
+</th>
+<th width="16.6%">
+<div class="dropdown">
+<span>Grocery</span>
+<div class="dropdown-content">
+<p>COFEE</P>
+<P>RICE</P>
+<P>CHOCOLATE</P>
+<P>NOODLES</P>
+<P>JAM</P>
+</div>
+</div>
+</th>
+
+<th width="16.6%">
+<div class="dropdown">
+<span>Fashion</span>
+<div class="dropdown-content">
+<p>GOWN</P>
+<P>FROCK SUIT</P>
+<P>SAREE</P>
+<P>KURTA</P>
+<P>BLAZER</P>
+</div>
+</div>
+</th>
+<th width="16.6%">
+<div class="dropdown">
+<span>Kitchen</span>
+<div class="dropdown-content">
+<P>COOKWARE</P>
+<p>CROCKERY</P>
+<P>MICROWAVE OVEN</P>
+<P>REFRIGERATOR</P>
+<P>GAS STOVE</P>
+</div>
+</div>
+</th>
+
+<th width="16.6%">
+<div class="dropdown">
+<span>Accessories</span>
+<div class="dropdown-content">
+<P>FAIRNESS CREAM</P>
+<p>GOGGLES</P>
+<P>WATCH</P>
+<P>PERFUME</P>
+<P>HEADPHNE</P>
+</div>
+</div>
+</th>
+
+<th width="16.6%">
+<div class="dropdown">
+<span>Offers zone</span>
+<div class="dropdown-content">
+<P>DISCOUNT</P>
+<p>CASH BACK</P>
+<P>PRIME OFFERS</P>
+<P>50% OFF</P>
+</div>
+</div>
+</th>
+
+
+</tr>
+</table>
+<img src="banner1.jpg" width="1250" >
+<br>
+<table border="0" width="100" bgcolor="white">
+<tr>
+<td colspan="5"><hr>Electronics<hr></td>
+</tr>
+<tr>
+<td ><img src="mobile1.jfif" class="zoom"></td>
+<td ><img src="mobile.jfif"  class="zoom"></td>
+<td ><img src="tv.jfif"  class="zoom"></td>
+<td ><img src="laptop.jfif" class="zoom"></td>
+<td  ><img src="fan.jfif"  class="zoom"></td>
+</tr>
+<tr>
+<th>Price:<font color="red">39,999/-</font></th>
+<th>Price:<font color="red">1,19,000/-</font></th>
+<th>Price:<font color="red">16,999/-</font></th>
+<th>Price:<font color="red">45000/-</font></th>
+<th>Price:<font color="red">12,999/-</font></th>
+</tr>
+<tr>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center;"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+<tr>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+</table>
+
+<br>
+<table border="0" width="100" bgcolor="white">
+<tr colspan="5"><h2>Grocery</h2><hr></td>
+<tr>
+<td ><img src="GROCERY1.jfif"></td>
+<td ><img src="GROCERY2.jfif"></td>
+<td ><img src="GROCERY3.jfif"></td>
+<td ><img src="GROCERY4.jfif"></td>
+<td ><img src="GROCERY5.jfif"></td>
+</tr>
+<tr>
+<th>Price:<font color="red">264/-</font></th>
+<th>Price:<font color="red">475/-</font></th>
+<th>Price:<font color="red">160/-</font></th>
+<th>Price:<font color="red">145/-</font></th>
+<th>Price:<font color="red">150/-</font></th>
+</tr>
+<tr>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center;"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+<tr>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+</table>
+<br>
+<table border="0" width="100" bgcolor="white">
+<tr colspan="5"><h2>Fashion</h2><hr></td>
+<tr>
+<td ><img src="FASHION2.jfif"></td>
+<td ><img src="FASHION3.jfif"></td>
+<td ><img src="FASHION8.jfif"></td>
+<td ><img src="FASHION6.jfif"></td>
+<td ><img src="FASHION.jfif"></td>
+<td ><img src="FASHION1.jfif"></td>
+<td ><img src="FASHION7.jfif"></td>
+</tr>
+<tr>
+<th>Price:<font color="red">9,999/-</font></th>
+<th>Price:<font color="red">15,000/-</font></th>
+<th>Price:<font color="red">8,000/-</font></th>
+<th>Price:<font color="red">3,000/-</font></th>
+<th>price:<font color="red">12,000/-</font></th>
+<th>price:<font color="red">2,400/-</font></th>
+<th>price:<font color="red">2,500/-</font></th>
+</tr>
+<tr>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center;"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+<tr>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+</table>
+<br>
+<table border="0" width="100" bgcolor="white">
+<tr colspan="5"><h2>Kitchen</h2><hr></td>
+<tr>
+<td ><img src="KITCHEN 2.jfif"></td>
+<td ><img src="KITCHEN3.jfif"></td>
+<td ><img src="KITCHEN1.jfif"></td>
+<td ><img src="KITCHEN6.jfif"></td>
+<td ><img src="KITCHEN7.jfif"></td>
+</tr>
+<tr>
+<th>Price:<font color="red">2,000/-</font></th>
+<th>Price:<font color="red">4,999/-</font></th>
+<th>Price:<font color="red">9,999/-</font></th>
+<th>Price:<font color="red">24,000/-</font></th>
+<th>price:<font color="red">5,500/-</font></th>
+</tr>
+<tr>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center;"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+<tr>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+</table>
+<br>
+<table border="0" width="100" bgcolor="white">
+<tr colspan="5"><h2>Accessories</h2><hr></td>
+<tr>
+<td ><img src="ACCESSORIES2.jfif"></td>
+<td ><img src="accessories3.jfif"></td>
+<td ><img src="accessories7.jfif"></td>
+<td ><img src="accessories8.jfif"></td>
+<td ><img src="accessories9.jfif"></td>
+</tr>
+<tr>
+<th>Price:<font color="red">300/-</font></th>
+<th>Price:<font color="red">1500/-</font></th>
+<th>Price:<font color="red">40,00,000/-</font></th>
+<th>Price:<font color="red">650/-</font></th>
+<th>price:<font color="red">7500/-</font></th>
+</tr>
+<tr>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center;"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="buy.html"><input type="botton" value="BUY" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+<tr>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+<th><a href="cart.html"><input type="botton" value="CART" style="width:60px;height:30px;background-color:blue;color:white;align:center"></a></th>
+</tr>
+</table>
+<table border="3" width="100%" bgcolor="skyblue">
+<tr>
+<th bgcolor="black" width="25%"><font color="white"><b>LOCATE US</b></font></th>
+<th bgcolor="black" width="25%"><font color="white"><b>CREATED BY</b></font></th>
+<th bgcolor="black"  width="25%"><font color="white"><b>CONTACT US</b></font></th>
+<th bgcolor="black" width="25%"><font color="white"><b>SEARCH</b></font></th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><a href="http://www.facebook.com"><b>FACEBOOK<b></a></li>
+<li><a href="http://www.twitter.com"><b>TWITTER<b></a></li>
+<li><a href="http://www.instagram.com"><b>INSTAGRAM<b></a></li>
+<li><a href="http://www.youtube.com"><b>YOUTUBE<b></a></li>
+</ul>
+<td>
+<ul>
+<li><b>SUBHASH KUMAR</b></li>
+<li><b>SUPRIYA KUMARI</b></li>
+<li><b>MANISH BHATI</b></li>
+</ul>
+<td>
+<ul>
+<li><b>+91 7462072823<b></li>
+<li><b>+91 9798455101<b></li>
+<li><b>+91 7017742971<b></li>
+</ul>
+
+<td><input type="text" placeholder="Search">
+<input type="button" value="search">
+</td>
+</tr>
+
+</tr>
+<script>
+function myfunction()
+{
+document.getElementById("myDropdown").classList.toggle("show");
+}
+function filterFunction()
+{
+var input,filter,ul,li,a,i;
+input=document.getElementById("myInput");
+filter=input.value.toUpperCase();
+div=document.getElementById("myDropdown");
+a=div.getElementsByTagName("a");
+for(i=0;i<a.length;i++)
+{ 
+txtValue=a[i].textContent||a[i].innerText;
+if(txtValue.toUpperCase().indexOf(filter) >-1)
+{
+a[i].style.display ="";
+}
+else
+{
+a[i].style.display ="none";
+}
+}
+}
+</script>
+</body>
+</html>
